@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+        <item android:title="@string/menu_title">
+            <menu>
+                <item
+                    android:id="@+id/nav_abelhas"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="@string/menu_abelhas" />
+                <item
+                    android:id="@+id/nav_arvores"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="@string/menu_arvores" />
+                <item
+                    android:id="@+id/nav_ferramentas"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="@string/menu_ferramentas" />
+            </menu>
+        </item>
+
+</menu>
